@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D4AACC481E4E83CB00F1A615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AACC471E4E83CB00F1A615 /* AppDelegate.swift */; };
-		D4AACC4A1E4E83CB00F1A615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AACC491E4E83CB00F1A615 /* ViewController.swift */; };
+		D4AACC4A1E4E83CB00F1A615 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AACC491E4E83CB00F1A615 /* SignInViewController.swift */; };
 		D4AACC4D1E4E83CC00F1A615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AACC4B1E4E83CC00F1A615 /* Main.storyboard */; };
 		D4AACC4F1E4E83CC00F1A615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4AACC4E1E4E83CC00F1A615 /* Assets.xcassets */; };
 		D4AACC521E4E83CC00F1A615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AACC501E4E83CC00F1A615 /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		CE2D1B4B2910598A661701BA /* Pods-SnapChatWork2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapChatWork2.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapChatWork2/Pods-SnapChatWork2.release.xcconfig"; sourceTree = "<group>"; };
 		D4AACC441E4E83CB00F1A615 /* SnapChatWork2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChatWork2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AACC471E4E83CB00F1A615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4AACC491E4E83CB00F1A615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4AACC491E4E83CB00F1A615 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D4AACC4C1E4E83CC00F1A615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4AACC4E1E4E83CC00F1A615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4AACC511E4E83CC00F1A615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				D4AACC471E4E83CB00F1A615 /* AppDelegate.swift */,
-				D4AACC491E4E83CB00F1A615 /* ViewController.swift */,
+				D4AACC491E4E83CB00F1A615 /* SignInViewController.swift */,
 				D4AACC4B1E4E83CC00F1A615 /* Main.storyboard */,
 				D4AACC4E1E4E83CC00F1A615 /* Assets.xcassets */,
 				D4AACC501E4E83CC00F1A615 /* LaunchScreen.storyboard */,
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4AACC4A1E4E83CB00F1A615 /* ViewController.swift in Sources */,
+				D4AACC4A1E4E83CB00F1A615 /* SignInViewController.swift in Sources */,
 				D4AACC481E4E83CB00F1A615 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +383,7 @@
 				D4AACC581E4E83CC00F1A615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
